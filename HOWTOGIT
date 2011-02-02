@@ -66,9 +66,9 @@ GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!
     Agora que já foram criadas as chaves necessárias, precisamos adicioná-las à nossa conta no GITHUB.
     Primeiramente, vamos copiar nossa chave: navegue até a pasta onde foram criadas as chaves, abra o arquivo público (nomedoseuarquivo.pub) e copie o que no mesmo estiver escrito.
     
-    CM02 ~/.ssh
-    CM07 ls
-    CM08 gedit nomedoseuarquivoarquivo.pub
+    CM02 $ ~/.ssh
+    CM07 $ ls
+    CM08 $ gedit nomedoseuarquivoarquivo.pub
     
     Faça seu login no site. Acesse: "Account Settings" > "SSH Public Keys" > "Add another public key".
     Escolha um nome qualquer para o campo "Título" e em "Key" cole a SSH-RSA que acabou de ser copiada. 
@@ -84,7 +84,7 @@ CM09 $ ssh git@github.com
 6.0 CONFIGURAÇÕES LOCAIS
 O GIT necessita saber seu nome de usuário e seu e-mail para propriamente creditar seus commits. Trate de arrumá-los! :P
 CM10 $ git config --global user.name "SEU NOME DE USUÁRIO"
-CM11 CM07$ git config --global user.email "seuemail@seudominio.com"
+CM11 $ git config --global user.email "seuemail@seudominio.com"
 
 
 7.0 CRIANDO UM REPOSITÓRIO NO GITHUB
