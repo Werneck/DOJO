@@ -121,7 +121,7 @@ Tenha em mente os nomes dos usuários e os repositórios de onde serão baixados
 Depois de feita a atualização, novos ramos (branches) que poderão ser baixados serão mostrados. Escolha-os e baixe-os:
     CM25 $ git pull A nomedobranch1
     CM26 $ git pull B nomedobranch5718
-<br />n
+<br />
 
     
 **OMG, MERGE CONFLICTS! E AGORA?** <br />
