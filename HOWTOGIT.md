@@ -157,18 +157,18 @@ So long, and thanks for all the fish. :)
 
 
 ## 12.0 REFERÊNCIAS E OUTROS SITES INTERESSANTES
-[http://www.akitaonrails.com/2008/10/02/entendendo-git-e-instalando-gitorious-git-via-web][ST01]
-[http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git][ST02]
-[http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github][ST03]
-[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html][ST04]
-[http://www.kernel.org/pub/software/scm/git/docs/everyday.html][ST05]
-[http://sysmonblog.co.uk/misc/git_by_example/][ST06]
-[http://help.github.com/git-cheat-sheets/][ST07]
-[http://people.gnome.org/~newren/eg/][ST08]
-[http://git.oz.cz/course/svn.html][ST09]
-[http://www.claudson.com.br/][ST10]
-[http://mono-project.com/GitFAQ][ST11]
-[http://help.github.com][ST12]
+[http://www.akitaonrails.com/2008/10/02/entendendo-git-e-instalando-gitorious-git-via-web][ST01] <br/>
+[http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git][ST02] <br/>
+[http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github][ST03] <br/>
+[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html][ST04] <br/>
+[http://www.kernel.org/pub/software/scm/git/docs/everyday.html][ST05] <br/>
+[http://sysmonblog.co.uk/misc/git_by_example/][ST06] <br/>
+[http://help.github.com/git-cheat-sheets/][ST07] <br/>
+[http://people.gnome.org/~newren/eg/][ST08] <br/>
+[http://git.oz.cz/course/svn.html][ST09] <br/>
+[http://www.claudson.com.br/][ST10] <br/>
+[http://mono-project.com/GitFAQ][ST11] <br/>
+[http://help.github.com][ST12] <br/>
 
 
 ## 13.0 POST-SCRIPTUM
