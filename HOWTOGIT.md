@@ -166,8 +166,8 @@ So long, and thanks for all the fish. :)
 [http://help.github.com/git-cheat-sheets/][ST07] <br/>
 [http://people.gnome.org/~newren/eg/][ST08] <br/>
 [http://git.oz.cz/course/svn.html][ST09]   
-[http://mono-project.com/GitFAQ][ST10]
-[http://www.claudson.com.br/][ST11]
+[http://mono-project.com/GitFAQ][ST10] <br />
+[http://www.claudson.com.br/][ST11] <br />
 [http://help.github.com][ST12]
 
 
