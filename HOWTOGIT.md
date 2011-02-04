@@ -45,7 +45,7 @@ Navegue até a pasta mostrada em **CM02** e utilize o comando **CM07**:
        
 Após digitar o comando acima com o e-mail utilizado para cadastro no **[GITHUB][github]**, aparecerão as seguintes mensagens: <br />
 **MSG01:** "Enter file in which to save the key", onde deverá ser digitado simplesmente um nome para um arquivo onde será guardada sua chave; <br />
-**MSG02:** "Enter passphrase", campo onde deverá ser digitada a senha desse arquivo e pode ser deixado em branco caso nenhuma seja necessária (é dever de todo internauta utilizar uma boa senha!); <br />
+**MSG02:** "Enter passphrase", campo onde deverá ser digitada a senha desse arquivo e pode ser deixado em branco caso nenhuma seja necessária; <br />
 **MSG03:** "Enter passphrase again", aqui, a repetição da mesma. <br /> 
        
 Parabéns, seu par de chaves **RSA** foi criado. :) <br /><br />
@@ -55,7 +55,21 @@ Parabéns, seu par de chaves **RSA** foi criado. :) <br /><br />
 Basicamente, **RSA** é um dos mais seguros algoritmos de criptografia de dados existentes e envolve sempre um par de chaves: a pública, que pode ser conhecida e a privada, que deve ser mantida em sigilo.
 
 
+## 5.0 ADICIONANDO A CHAVE EM SUA CONTA NO GITHUB
+Agora que já foram criadas as chaves necessárias, precisamos adicioná-las à nossa conta no **[GITHUB][github]**. <br />
+Primeiramente, vamos copiar nossa chave: navegue até a pasta onde elas foram criadas, abra o arquivo público (nomedoseuarquivo.**pub**) e copie o que no mesmo estiver escrito.
+    CM02 ~/.ssh
+    CM07 ls
+    CM08 vim nomedoseuarquivoarquivo.pub
+<br />    
+Faça seu login no site. Acesse: "Account Settings" **>** "SSH Public Keys" **>** "Add another public key".
+Escolha um nome qualquer para o campo "Título" e em "Key" cole a **SSH-RSA** que acabou de ser copiada. 
 
+
+## 6.0 TESTANDO A CONEXÃO COM O GITHUB
+Aqui acontece a adição do **[GITHUB][github]** na lista de hosts conhecidos. <br />
+Caso seja a primeira tentativa de conhexão, faça sua autenticação digitando a senha escolhida durante o passo 4.3.
+    CM09 $ ssh git@github.com
 
 
 
