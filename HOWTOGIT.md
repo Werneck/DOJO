@@ -20,7 +20,7 @@ Instale o **GIT** e crie uma conta no **[GITHUB][github]**:
 
 ## 4.0 GERANDO UMA CHAVE SSH (SECURE SHELL)
 **O QUÊ?!** <br />
-SSH é um protocolo de rede que permite que dados sejam trocados entre redes diversas através de um canal seguro. <br />
+SSH é um protocolo de rede que permite que dados sejam trocados entre redes diversas através de um canal seguro. <br /><br />
 
 
 **ALGUMAS PRECAUÇÕES** <br />
