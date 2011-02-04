@@ -146,10 +146,10 @@ Problema resolvido!<br />
 **NOTA03**: o comando abaixo informa quais os branches disponíveis depois de utilizado **CM24**
     CM33 $ git branch -r
 
-**NOTA04**: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se CM28.
+**NOTA04**: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se **CM28**.
     CM34 $ vim .git/config 
 
-**NOTA05**: entender como realmente funciona o merge é uma questão de prática. Então... pratique!
+**NOTA05**: entender como realmente funciona o merge é uma questão de prática. Então... **PRATIQUE**!
 
 
 ## 11.0 CONSIDERAÇÕES FINAIS
