@@ -110,7 +110,7 @@ Os comandos **CM18**/**CM19** podem resumir-se a um único: <br />
     CM20 $ git push git@github.com:nomedecadastronosite/NOMEPROJETO.git master
 
 
-10.0 BAIXANDO OUTROS ARQUIVOS (PULL)
+## 10.0 BAIXANDO OUTROS ARQUIVOS (PULL)
 **OPTATIVO**: navegue até uma pasta onde serão gravados os novos arquivos e inicialize o **GIT** (**CM14**). <br/ >
 Tenha em mente os nomes dos usuários e os repositórios de onde serão baixados os novos arquivos.
 
