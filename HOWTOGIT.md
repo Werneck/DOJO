@@ -20,15 +20,15 @@ Instale o **GIT** e crie uma conta no **[GITHUB][github]**:
 
 ## 4.0 GERANDO UMA CHAVE SSH (SECURE SHELL)
 **O QUÊ?!** <br />
-SSH é um protocolo de rede que permite que dados sejam trocados entre redes diversas através de um canal seguro. <br /><br />
+**SSH** é um protocolo de rede que permite que dados sejam trocados entre redes diversas através de um canal seguro. <br /><br />
 
 
 **ALGUMAS PRECAUÇÕES** <br />
 Primeiramente, devemos checar a existência de chaves em nosso computador para que outras, porventura, não as venham sobrepor. <br />
 Navegue até a pasta mostrada em **CM02**. Caso o diretório não for encontrado, sem problemas, simplesmente crie-o. Caso contrário, remova os arquivos existentes no mesmo caso tenha certeza não serem necessários. 
-Aqui, um **CUIDADO especial**: na pasta ~/.ssh são utilizadas chaves com nomes padrão! Portanto, um backup é muito bem-vindo em caso de dúvidas (**CM03**/**CM06**).
+Aqui, um **CUIDADO** especial: na pasta em questão são utilizadas chaves com nomes padrão! Portanto, um backup é muito bem-vindo em caso de dúvidas (**CM03**/**CM06**).
     CM02 $ cd ~/.ssh
-    
+blabla
     CM03 $ ls
     CM04 $ mkdir key_backup
     CM05 $ cp id_rsa* key_backup
