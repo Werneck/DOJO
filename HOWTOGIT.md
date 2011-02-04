@@ -35,7 +35,6 @@ Aqui, um **CUIDADO** especial: na pasta em questão são utilizadas chaves com n
     CM06 $ rm id_rsa*
 <br />
 
-
 **FINALMENTE, COMO GERAR MINHA CHAVE?** <br />
 **NOTA**: esse passo pode ser pulado caso alguma chave já existente vá ser utilizada.
 
