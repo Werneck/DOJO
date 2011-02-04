@@ -165,14 +165,14 @@ So long, and thanks for all the fish. :)
 [http://sysmonblog.co.uk/misc/git_by_example/][ST06] <br/>
 [http://help.github.com/git-cheat-sheets/][ST07] <br/>
 [http://people.gnome.org/~newren/eg/][ST08] <br/>
-[http://git.oz.cz/course/svn.html][ST09]   
-[http://mono-project.com/GitFAQ][ST10] <br />
+[http://mono-project.com/GitFAQ][ST09] <br />
+[http://git.oz.cz/course/svn.html][ST10]   
 [http://www.claudson.com.br/][ST11] <br />
 [http://help.github.com][ST12]
 
 
 ## 13.0 POST-SCRIPTUM
-A seção 12.0 não está ali só de enfeite. Aproveitem!:P
+A seção 12.0 não está ali só de enfeite. Aproveitem! :P
 
 
 [github]: http://github.com
@@ -184,8 +184,8 @@ A seção 12.0 não está ali só de enfeite. Aproveitem!:P
 [ST06]: http://sysmonblog.co.uk/misc/git_by_example/
 [ST07]: http://help.github.com/git-cheat-sheets/
 [ST08]: http://people.gnome.org/~newren/eg/
-[ST09]: http://git.oz.cz/course/svn.html
-[ST10]: http://mono-project.com/GitFAQ
+[ST09]: http://mono-project.com/GitFAQ
+[ST10]: http://git.oz.cz/course/svn.html
 [ST11]: http://www.claudson.com.br/
 [ST12]: http://help.github.com
 
