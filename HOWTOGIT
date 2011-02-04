@@ -3,13 +3,13 @@ GIT & GITHUB OMGWTFBBQ!!1? P1
 HOWTO BY ANNA (anna.claudia@gmail.com)
 
 
-1.0 INTRODUÇÃO
+# 1.0 INTRODUÇÃO
     Aparências enganam. Entender e manipular arquivos com o GIT é mais fácil do que aparenta.
     A idéia desse HOWTO foi reunir os passos essenciais para o funcionamento do GIT. Assim, podemos nos adaptar aos comandos iniciais e posteriormente incentivar outros grupos a ficarem mais influentes com os commits. :)
     Let's get started!
 
 
-2.0 AFINAL, O QUE É O GIT?
+# 2.0 AFINAL, O QUE É O GIT?
 GIT é um SOFTWARE LIVRE para controle de versão DISTRIBUÍDO. O que significa dizer que mesmo com um fluxo de trabalho centralizado, cada usuário tem um backup completo do servidor principal. Tudo é LOCAL.
 GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!
 
@@ -68,7 +68,7 @@ GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!
     
     CM02 ~/.ssh
     CM07 ls
-    CM08 gedit nomedoseuarquivoarquivo.pub
+    CM08 vim nomedoseuarquivoarquivo.pub
     
     Faça seu login no site. Acesse: "Account Settings" > "SSH Public Keys" > "Add another public key".
     Escolha um nome qualquer para o campo "Título" e em "Key" cole a SSH-RSA que acabou de ser copiada. 
@@ -110,28 +110,72 @@ CM17 $ git commit -m 'uma mensagem qualquer vem aqui'
 Aponte para o repositório do GITHUB:
 CM18 $ git remote add origin git@github.com:nomedecadastronosite/NOMEPROJETO.git
 LEMBRETE: NOMEPROJETO é o nome do repositório criado na seção 7.1.
-
 E, finalmente... envie os arquivos para o servidor:
 CM19 $ git push origin master
 
 
-9.0 CONSIDERAÇÕES FINAIS
+Os comandos CM18/CM19 podem resumir-se a um único:
+CM20 $ git push git@github.com:nomedecadastronosite/NOMEPROJETO.git master
+
+
+9.0 BAIXANDO OUTROS ARQUIVOS (PULL)
+OPTATIVO: navegue até uma pasta onde serão gravados os novos arquivos e inicialize o GIT (CM14).
+Tenha em mente os nomes dos usuários e os repositórios de onde serão baixados os novos arquivos.
+
+CM22 $ git remote add A git@github.com:nomedousuariocomarquivoslegais1/repositoriocomarquivoslegais1.git
+CM23 $ git remote add B git@github.com:nomedousuariocomarquivoslegais2/repositoriocomarquivoslegais2.git
+CM24 $ git remote update
+
+Depois de feita a atualização, novos ramos (branches) que poderão ser baixados serão mostrados. Escolha-os e baixe-os:
+CM25 $ git pull A nomedobranch1
+CM26 $ git pull B nomedobranch5718
+
+    9.1 OMG, MERGE CONFLICTS! E AGORA?
+        Mesclar ou não mesclar, eis a questão! Sem pânico.
+        
+        SEM MERGE: para ignorar as mudanças, só é necessário limpar o índice de entradas. Permanecem os arquivos originais.
+        CM27 $ git reset
+        
+        COM MERGE: o GIT marcará os conflitos na árvore de trabalho. Edite o que for necessário e adicione os arquivos editados ao contexto.
+        CM28 $ git add arquivomodificado1
+        CM29 $ git add arquivomodificado2
+        
+        Compartilhe as mudanças. Aqui é só remover os marcadores # das linhas que serão enviadas como comentários. :)
+        CM30 $ git commit -a
+        
+        Problema resolvido!
+        NOTA: os conflitos com o merge podem ser inicialmente assustadores, mas nada que não possa ser resolvido com a ajuda de algumas ferramentas interessantes. :)
+        CM31 $ git mergetool
+        CM32 $ git diff
+
+
+NOTA: o comando abaixo informa quais os branches disponíveis:
+CM33 $ git branch -r
+
+NOTA: entender como realmente funciona o merge é uma questão de prática. Então... pratique!
+
+NOTA: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se CM28.
+CM34 $ vim .git/config 
+
+10.0 CONSIDERAÇÕES FINAIS
 That's all folks! Obrigada por ler. :)
 
 
-10.0 REFERÊNCIAS E OUTROS SITES INTERESSANTES
+11.0 REFERÊNCIAS E OUTROS SITES INTERESSANTES
 ST01 www.akitaonrails.com/2008/10/02/entendendo-git-e-instalando-gitorious-git-via-web
-ST02 b.lesseverything.com/2008/3/25/got-git-howto-git-and-github
-ST03 www.kernel.org/pub/software/scm/git/docs/user-manual.html
-ST04 www.kernel.org/pub/software/scm/git/docs/everyday.html
-ST05 sysmonblog.co.uk/misc/git_by_example/
-ST06 help.github.com/git-cheat-sheets/
-ST07 people.gnome.org/~newren/eg/
-ST08 git.oz.cz/course/svn.html
-ST09 mono-project.com/GitFAQ
-ST10 help.github.com
+ST02 http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git
+ST03 b.lesseverything.com/2008/3/25/got-git-howto-git-and-github
+ST04 www.kernel.org/pub/software/scm/git/docs/user-manual.html
+ST05 www.kernel.org/pub/software/scm/git/docs/everyday.html
+ST06 sysmonblog.co.uk/misc/git_by_example/
+ST07 help.github.com/git-cheat-sheets/
+ST08 people.gnome.org/~newren/eg/
+ST09 http://www.claudson.com.br/
+ST10 git.oz.cz/course/svn.html
+ST11 mono-project.com/GitFAQ
+ST12 help.github.com
 
 
-11.0 POST-SCRIPTUM
-A seção 10.0 não está ali só de enfeite. Aproveitem!:P
+12.0 POST-SCRIPTUM
+A seção 11.0 não está ali só de enfeite. Aproveitem!:P
       
