@@ -139,7 +139,7 @@ Compartilhe as mudanças. Aqui é só remover os marcadores # das linhas que ser
 <br />        
         
 Problema resolvido!<br />
-**NOTA02**: os conflitos com o merge podem ser inicialmente assustadores, mas nada que não possa ser resolvido com a ajuda de algumas ferramentas interessantes. :)
+**NOTA02**: os conflitos com o merge podem ser inicialmente assustadores, mas nada que não possa ser resolvido com a ajuda de algumas ferramentas...
     CM31 $ git mergetool
     CM32 $ git diff
 
