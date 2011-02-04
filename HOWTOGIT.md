@@ -143,7 +143,7 @@ Problema resolvido!<br />
     CM31 $ git mergetool
     CM32 $ git diff
 
-**NOTA03**: o comando abaixo informa quais os branches disponíveis depois de utilizado **CM24**
+**NOTA03**: o comando abaixo informa quais os branches disponíveis depois de utilizado **CM24**.
     CM33 $ git branch -r
 
 **NOTA04**: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se **CM28**.
@@ -156,4 +156,36 @@ Problema resolvido!<br />
 So long, and thanks for all the fish. :)
 
 
+## 12.0 REFERÊNCIAS E OUTROS SITES INTERESSANTES
+[http://www.akitaonrails.com/2008/10/02/entendendo-git-e-instalando-gitorious-git-via-web][ST01]
+[http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git][ST02]
+[http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github][ST03]
+[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html][ST04]
+[http://www.kernel.org/pub/software/scm/git/docs/everyday.html][ST05]
+[http://sysmonblog.co.uk/misc/git_by_example/][ST06]
+[http://help.github.com/git-cheat-sheets/][ST07]
+[http://people.gnome.org/~newren/eg/][ST08]
+[http://git.oz.cz/course/svn.html][ST09]
+[http://www.claudson.com.br/][ST10]
+[http://mono-project.com/GitFAQ][ST11]
+[http://help.github.com][ST12]
+
+
+## 13.0 POST-SCRIPTUM
+A seção 12.0 não está ali só de enfeite. Aproveitem!:P
+
+
 [github]: http://github.com
+[ST01]: http://www.akitaonrails.com/2008/10/02/entendendo-git-e-instalando-gitorious-git-via-web
+[ST02]: http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git
+[ST03]: http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github
+[ST04]: http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
+[ST05]: http://www.kernel.org/pub/software/scm/git/docs/everyday.html
+[ST06]: http://sysmonblog.co.uk/misc/git_by_example/
+[ST07]: http://help.github.com/git-cheat-sheets/
+[ST08]: http://people.gnome.org/~newren/eg/
+[ST09]: http://git.oz.cz/course/svn.html
+[ST10]: http://www.claudson.com.br/
+[ST11]: http://mono-project.com/GitFAQ
+[ST12]: http://help.github.com
+
