@@ -10,5 +10,4 @@ Let's get started!
 **GIT** é um **SOFTWARE LIVRE** para controle de versão **DISTRIBUÍDO**. O que significa dizer que mesmo com um fluxo de trabalho centralizado, cada usuário tem um backup completo do servidor principal. Tudo é **LOCAL**. <br />
 **GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!**
 
-    ### 2.1 PUXANDO O SACO
-            Só pra constar, procurem quem foi o desenvolvedor do GIT! :D
+<pre><code>testeteste</code></pre>
