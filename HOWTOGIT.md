@@ -79,9 +79,9 @@ O **GIT** necessita saber seu nome de usuário e seu e-mail para propriamente cr
 
 
 ## 8.0 CRIANDO UM REPOSITÓRIO NO GITHUB
-No site do **[GITHUB][github]**, acesse: "DASHBOARD" > "NEW REPOSITORY". Escolha um nome para o seu projeto e... pronto! <br /><br />
+No site do **[GITHUB][github]**, acesse: "DASHBOARD" > "NEW REPOSITORY". Escolha um nome para o seu projeto e... pronto! <br />
 
-**E AGORA, ONDE FICARÃO MEUS ARQUIVOS?**
+**E AGORA, ONDE FICARÃO MEUS ARQUIVOS?** <br />
 Criado o repositório no site, crie uma pasta com o mesmo nome em seu computador. Esse será seu repositório local.
     CM12 $ mkdir NOMEPROJETO
 
