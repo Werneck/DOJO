@@ -101,7 +101,7 @@ Primeiramente, vá até seu repositório local e inicialize o GIT. Utilize CM15 
 
 CM13 $ cd NOMEPROJETO
 CM14 $ git init
-CM15 $ git add ./ARQUIVO1 ARQUIVO2 ARQUIVO3
+CM15 $ git add ARQUIVO1 ARQUIVO2 ARQUIVO3
 CM16 $ git add .
 
 Após feita a marcação de arquivos a serem enviados ao repositório (CM15/CM16), é necessário fazer uso do commit:
