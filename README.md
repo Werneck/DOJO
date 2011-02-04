@@ -9,7 +9,4 @@ Para qualquer contato, estamos aí: <dojoufjf@gmail.com>. <br />
 
 [dojo]: http://dojoufjf.wordpress.com
 
-## testando outra categoria
-testeteste
-
 
