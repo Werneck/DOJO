@@ -128,26 +128,26 @@ Depois de feita a atualização, novos ramos (branches) que poderão ser baixado
 Mesclar ou não mesclar, eis a questão! Sem pânico.
         
 **SEM MERGE**: para ignorar as mudanças, só é necessário limpar o índice de entradas. Permanecem os arquivos originais.
-        CM27 $ git reset
+    CM27 $ git reset
         
 **COM MERGE**: o **GIT** marcará os conflitos na árvore de trabalho. Edite o que for necessário e adicione os arquivos editados ao contexto.
-        CM28 $ git add arquivomodificado1
-        CM29 $ git add arquivomodificado2
+    CM28 $ git add arquivomodificado1
+    CM29 $ git add arquivomodificado2
         
 Compartilhe as mudanças. Aqui é só remover os marcadores **#** das linhas que serão enviadas como comentários. :)
-        CM30 $ git commit -a
+    CM30 $ git commit -a
 <br />        
         
 Problema resolvido!
 **NOTA02**: os conflitos com o merge podem ser inicialmente assustadores, mas nada que não possa ser resolvido com a ajuda de algumas ferramentas interessantes. :)
-        CM31 $ git mergetool
-        CM32 $ git diff
+    CM31 $ git mergetool
+    CM32 $ git diff
 
 **NOTA03**: o comando abaixo informa quais os branches disponíveis.
-CM33 $ git branch -r
+    CM33 $ git branch -r
 
 **NOTA04**: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se CM28.
-CM34 $ vim .git/config 
+    CM34 $ vim .git/config 
 
 **NOTA05**: entender como realmente funciona o merge é uma questão de prática. Então... pratique!
 
