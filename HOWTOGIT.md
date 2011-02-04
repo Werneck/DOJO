@@ -134,11 +134,11 @@ Mesclar ou não mesclar, eis a questão! Sem pânico.
     CM28 $ git add arquivomodificado1
     CM29 $ git add arquivomodificado2
         
-Compartilhe as mudanças. Aqui é só remover os marcadores **#** das linhas que serão enviadas como comentários. :)
+Compartilhe as mudanças. Aqui é só remover os marcadores # das linhas que serão enviadas como comentários. :)
     CM30 $ git commit -a
 <br />        
         
-Problema resolvido!
+Problema resolvido!<br />
 **NOTA02**: os conflitos com o merge podem ser inicialmente assustadores, mas nada que não possa ser resolvido com a ajuda de algumas ferramentas interessantes. :)
     CM31 $ git mergetool
     CM32 $ git diff
