@@ -3,28 +3,31 @@
 ## 1.0 INTRODUÇÃO
 Aparências enganam. Entender e manipular arquivos com o **GIT** é mais fácil do que aparenta. <br />
 A idéia desse **HOWTO** foi reunir os passos essenciais para o funcionamento do **GIT**. Assim, podemos nos adaptar aos comandos iniciais e posteriormente incentivar outros grupos a ficarem mais influentes com os commits. :) <br />
-Let's get started!<br />
+Let's get started!
+
 
 ## 2.0 AFINAL, O QUE É O GIT?
 **GIT** é um **SOFTWARE LIVRE** para controle de versão **DISTRIBUÍDO**. O que significa dizer que mesmo com um fluxo de trabalho centralizado, cada usuário tem um backup completo do servidor principal. Tudo é **LOCAL**. <br /><br />
 
 **GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!** <br />
-E, só pra constar... procurem quem foi o desenvolvedor do **GIT**! :D <br />
+E, só pra constar... procurem quem foi o desenvolvedor do **GIT**! :D
+
 
 ## 3.0 PRIMEIROS PASSOS
 Instale o **GIT** e crie uma conta no **[GITHUB][github]**:
     CM01 $ sudo apt-get install git-core git-doc git-gui
-<br />
+
 
 ## 4.0 GERANDO UMA CHAVE SSH (SECURE SHELL)
 **O QUÊ?!** <br />
-SSH é um protocolo de rede que permite que dados sejam trocados entre redes diversas através de um canal seguro.
+SSH é um protocolo de rede que permite que dados sejam trocados entre redes diversas através de um canal seguro. <br />
+
 
 **ALGUMAS PRECAUÇÕES** <br />
 Primeiramente, devemos checar a existência de chaves em nosso computador para que outras, porventura, não as venham sobrepor. <br />
 Navegue até a pasta mostrada em **CM02**. Caso o diretório não for encontrado, sem problemas, simplesmente crie-o. Caso contrário, remova os arquivos existentes no mesmo caso tenha certeza não serem necessários. 
 Aqui, um **CUIDADO especial**: na pasta ~/.ssh são utilizadas chaves com nomes padrão! Portanto, um backup é muito bem-vindo em caso de dúvidas (**CM03**/**CM06**).
-    CM02 $ cd ~/.ssh <br />
+    CM02 $ cd ~/.ssh
     
     CM03 $ ls
     CM04 $ mkdir key_backup
