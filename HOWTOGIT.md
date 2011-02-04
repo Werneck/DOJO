@@ -103,11 +103,24 @@ Aponte para o repositório do **[GITHUB][github]**:
     
 E, finalmente... envie os arquivos para o servidor:
     CM19 $ git push origin master
+<br />
 
-**LEMBRETE**: NOMEPROJETO é o nome do repositório criado na seção 8.1. <br />
+**LEMBRETE**: **NOMEPROJETO** é o nome do repositório criado na seção 8.1. <br />
 Os comandos **CM18**/**CM19** podem resumir-se a um único: <br />
     CM20 $ git push git@github.com:nomedecadastronosite/NOMEPROJETO.git master
 
+
+10.0 BAIXANDO OUTROS ARQUIVOS (PULL)
+**OPTATIVO**: navegue até uma pasta onde serão gravados os novos arquivos e inicialize o **GIT** (**CM14**). <br/ >
+Tenha em mente os nomes dos usuários e os repositórios de onde serão baixados os novos arquivos.
+
+    CM22 $ git remote add A git@github.com:nomedousuariocomarquivoslegais1/repositoriocomarquivoslegais1.git
+    CM23 $ git remote add B git@github.com:nomedousuariocomarquivoslegais2/repositoriocomarquivoslegais2.git
+    CM24 $ git remote update
+
+Depois de feita a atualização, novos ramos (branches) que poderão ser baixados serão mostrados. Escolha-os e baixe-os:
+    CM25 $ git pull A nomedobranch1
+    CM26 $ git pull B nomedobranch5718
 
 
 [github]: http://github.com
