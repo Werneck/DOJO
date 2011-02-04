@@ -9,11 +9,12 @@ Let's get started!<br />
 **GIT** é um **SOFTWARE LIVRE** para controle de versão **DISTRIBUÍDO**. O que significa dizer que mesmo com um fluxo de trabalho centralizado, cada usuário tem um backup completo do servidor principal. Tudo é **LOCAL**. <br /><br />
 
 **GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!** <br />
-Só pra constar, procurem quem foi o desenvolvedor do **GIT**! :D <br />
+E, só pra constar... procurem quem foi o desenvolvedor do **GIT**! :D <br />
 
 ## 3.0 PRIMEIROS PASSOS
 Instale o **GIT** e crie uma conta no **[GITHUB][github]**:
     CM01 $ sudo apt-get install git-core git-doc git-gui
+<br />
 
 ## 4.0 GERANDO UMA CHAVE SSH (SECURE SHELL)
 **O QUÊ?!** <br />
