@@ -13,7 +13,7 @@ Let's get started!<br />
 Só pra constar, procurem quem foi o desenvolvedor do **GIT**! :D <br />
 
 ## 3.0 PRIMEIROS PASSOS
-Instale o **GIT** e crie uma conta no **GITHUB**:
+Instale o **GIT** e crie uma conta no **[GITHUB][github]**:
     CM01 $ sudo apt-get install git-core git-doc git-gui
 
 ## 4.0 GERANDO UMA CHAVE SSH (SECURE SHELL)
@@ -48,3 +48,6 @@ Parabéns, seu par de chaves **RSA** foi criado. :)
 
 **ESPERA! O QUE É ESSE PAR DE CHAVES RSA?** <br />
 Basicamente, **RSA** é um dos mais seguros algoritmos de criptografia de dados existentes e envolve sempre um par de chaves: a pública, que pode ser conhecida e a privada, que deve ser mantida em sigilo.
+
+
+[github]: "http://github.com"
