@@ -7,6 +7,6 @@ Para qualquer contato, estamos aí: <dojoufjf@gmail.com>. <br />
 
 **May the Force be with you!**
 
-[dojo]: dojoufjf.wordpress.com
+[dojo]: www.dojoufjf.wordpress.com
 
 
