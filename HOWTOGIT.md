@@ -143,7 +143,7 @@ Problema resolvido!<br />
     CM31 $ git mergetool
     CM32 $ git diff
 
-**NOTA03**: o comando abaixo informa quais os branches disponíveis.
+**NOTA03**: o comando abaixo informa quais os branches disponíveis depois de utilizado **CM24**
     CM33 $ git branch -r
 
 **NOTA04**: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se CM28.
