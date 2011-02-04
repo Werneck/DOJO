@@ -34,7 +34,7 @@ Aqui, um **CUIDADO especial**: na pasta ~/.ssh são utilizadas chaves com nomes 
 **FINALMENTE, COMO GERAR MINHA CHAVE?** <br />
 **NOTA**: esse passo pode ser pulado caso alguma chave já existente vá ser utilizada.
 
-Agora que temos certeza de que o **SSH** não vai utilizar uma chave pré-existente, podemos criar novas. <br />
+Agora que temos certeza de que o **SSH** não vai utilizar uma chave pré-existente, podemos criar novas. <br /><br />
 Navegue até a pasta mostrada em **CM02** e utilize o comando **CM07**:
     CM07 $ ssh-keygen -t rsa -C "seuemail@seudominio.com"
        
@@ -50,4 +50,4 @@ Parabéns, seu par de chaves **RSA** foi criado. :)
 Basicamente, **RSA** é um dos mais seguros algoritmos de criptografia de dados existentes e envolve sempre um par de chaves: a pública, que pode ser conhecida e a privada, que deve ser mantida em sigilo.
 
 
-[github]: "http://github.com"
+[github]: http://github.com
