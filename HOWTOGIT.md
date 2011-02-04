@@ -43,7 +43,7 @@ Agora que temos certeza de que o **SSH** não vai utilizar uma chave pré-existe
 Navegue até a pasta mostrada em **CM02** e utilize o comando **CM07**:
     CM07 $ ssh-keygen -t rsa -C "seuemail@seudominio.com"
        
-Após digitar o comando acima com o e-mail utilizado para cadastro no **[GITHUB[github]**, aparecerão as seguintes mensagens: <br />
+Após digitar o comando acima com o e-mail utilizado para cadastro no **[GITHUB][github]**, aparecerão as seguintes mensagens: <br />
 **MSG01** "Enter file in which to save the key", onde deverá ser digitado simplesmente um nome para um arquivo onde será guardada sua chave; <br />
 **MSG02** "Enter passphrase", campo onde deverá ser digitada a senha desse arquivo e pode ser deixado em branco caso nenhuma seja necessária (é dever de todo internauta utilizar uma boa senha!); <br />
 **MSG03** "Enter passphrase again", aqui, a repetição da mesma. <br /> 
