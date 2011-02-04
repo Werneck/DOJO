@@ -13,9 +13,12 @@ Let's get started!
 **GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!** <br />
 Só pra constar, procurem quem foi o desenvolvedor do GIT! :D <br />
 
+
 ### 3.0 PRIMEIROS PASSOS
-Instalação:
-> CM01 $ sudo apt-get install git-core git-doc git-gui
->> testeteste!
-> testeteste?
+Instale o **GIT** e crie uma conta no GITHUB:
+    CM01 $ sudo apt-get install git-core git-doc git-gui
+    
+    
+### 4.0 GERANDO UMA CHAVE SSH (SECURE SHELL)
+ 
 
