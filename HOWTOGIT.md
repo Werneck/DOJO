@@ -23,7 +23,7 @@ SSH é um protocolo de rede que permite que dados sejam trocados entre redes div
 Primeiramente, devemos checar a existência de chaves em nosso computador para que outras, porventura, não as venham sobrepor. <br />
 Navegue até a pasta mostrada em **CM02**. Caso o diretório não for encontrado, sem problemas, simplesmente crie-o. Caso contrário, remova os arquivos existentes no mesmo caso tenha certeza não serem necessários. 
 Aqui, um **CUIDADO especial**: na pasta ~/.ssh são utilizadas chaves com nomes padrão! Portanto, um backup é muito bem-vindo em caso de dúvidas (**CM03**/**CM06**).
-    CM02 $ cd ~/.ssh
+    CM02 $ cd ~/.ssh <br />
     
     CM03 $ ls
     CM04 $ mkdir key_backup
@@ -35,7 +35,7 @@ Aqui, um **CUIDADO especial**: na pasta ~/.ssh são utilizadas chaves com nomes 
 
 Agora que temos certeza de que o **SSH** não vai utilizar uma chave pré-existente, podemos criar novas. <br />
 Navegue até a pasta mostrada em **CM02** e utilize o comando **CM07**:
-       CM07 $ ssh-keygen -t rsa -C "seuemail@seudominio.com"
+    CM07 $ ssh-keygen -t rsa -C "seuemail@seudominio.com"
        
 Após digitar o comando acima com o e-mail utilizado para cadastro no **GITHUB**, aparecerão as seguintes mensagens:
 **MSG01** "Enter file in which to save the key", onde deverá ser digitado simplesmente um nome para um arquivo onde será guardada sua chave;
@@ -45,5 +45,5 @@ Após digitar o comando acima com o e-mail utilizado para cadastro no **GITHUB**
 Parabéns, seu par de chaves **RSA** foi criado. :)
 
 
-**ESPERA! O QUE É ESSE PAR DE CHAVES RSA?**
+**ESPERA! O QUE É ESSE PAR DE CHAVES RSA?** <br />
 Basicamente, **RSA** é um dos mais seguros algoritmos de criptografia de dados existentes e envolve sempre um par de chaves: a pública, que pode ser conhecida e a privada, que deve ser mantida em sigilo.
