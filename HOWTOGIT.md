@@ -58,9 +58,9 @@ Basicamente, **RSA** é um dos mais seguros algoritmos de criptografia de dados 
 ## 5.0 ADICIONANDO A CHAVE EM SUA CONTA NO GITHUB
 Agora que já foram criadas as chaves necessárias, precisamos adicioná-las à nossa conta no **[GITHUB][github]**. <br />
 Primeiramente, vamos copiar nossa chave: navegue até a pasta onde elas foram criadas, abra o arquivo público (nomedoseuarquivo.**pub**) e copie o que no mesmo estiver escrito.
-    CM02 ~/.ssh
-    CM07 ls
-    CM08 vim nomedoseuarquivoarquivo.pub
+    CM02 $ ~/.ssh
+    CM07 $ ls
+    CM08 $ vim nomedoseuarquivoarquivo.pub
 
 Faça seu login no site. Acesse: "ACCOUNT SETTINGS" > "SSH PUBLIC KEYS" > "ADD ANOTHER PUBLIC KEY". <br />
 Escolha um nome qualquer para o campo "TÍTULO" e em "KEY" cole a **SSH-RSA** que acabou de ser copiada. 
