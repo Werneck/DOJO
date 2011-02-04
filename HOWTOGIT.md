@@ -27,7 +27,7 @@ Instale o **GIT** e crie uma conta no **[GITHUB][github]**:
 Primeiramente, devemos checar a existência de chaves em nosso computador para que outras, porventura, não as venham sobrepor. <br />
 Navegue até a pasta mostrada em **CM02**. Caso o diretório não for encontrado, sem problemas, simplesmente crie-o. Caso contrário, remova os arquivos existentes no mesmo caso tenha certeza não serem necessários. 
     CM02 $ cd ~/.ssh
-    
+<br />    
 Aqui, um **CUIDADO** especial: na pasta em questão são utilizadas chaves com nomes padrão! Portanto, um backup é muito bem-vindo em caso de dúvidas (**CM03**/**CM06**).
     CM03 $ ls
     CM04 $ mkdir key_backup
