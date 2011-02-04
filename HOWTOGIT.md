@@ -90,7 +90,7 @@ Criado o repositório no site, crie uma pasta com o mesmo nome em seu computador
 Primeiramente, vá até seu repositório local e inicialize o **GIT**. 
     CM13 $ cd NOMEPROJETO
 
-Utilize **CM15** como modelo para selecionar arquivos específicos ou então faça uso do **CM16** para adicionar todos os arquivos do repositório em que o **GIT** foi inicializado.
+Utilize **CM15** para selecionar arquivos específicos ou então faça uso do **CM16** para adicionar todos os arquivos do repositório em que o **GIT** foi inicializado.
     CM14 $ git init
     CM15 $ git add ARQUIVO1 ARQUIVO2 ARQUIVO3
     CM16 $ git add .
