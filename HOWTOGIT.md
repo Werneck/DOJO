@@ -68,10 +68,45 @@ Escolha um nome qualquer para o campo "TÍTULO" e em "KEY" cole a **SSH-RSA** qu
 
 ## 6.0 TESTANDO A CONEXÃO COM O GITHUB
 Aqui acontece a adição do **[GITHUB][github]** na lista de hosts conhecidos. <br />
-Caso seja a primeira tentativa de conhexão, faça sua autenticação digitando a senha escolhida durante o passo 4.3.
+Caso seja a primeira tentativa de conexão, faça sua autenticação digitando a senha escolhida durante o passo 4.3.
     CM09 $ ssh git@github.com
 
 
+## 7.0 CONFIGURAÇÕES LOCAIS
+O **GIT** necessita saber seu nome de usuário e seu e-mail para propriamente creditar seus commits. Trate de arrumá-los! :P
+    CM10 $ git config --global user.name "SEU NOME DE USUÁRIO"
+    CM11 $ git config --global user.email "seuemail@seudominio.com"
+
+
+## 8.0 CRIANDO UM REPOSITÓRIO NO GITHUB
+No site do **[GITHUB][github]**, acesse: "DASHBOARD" > "NEW REPOSITORY". Escolha um nome para o seu projeto e... pronto! <br /><br />
+
+**E AGORA, ONDE FICARÃO MEUS ARQUIVOS?**
+Criado o repositório no site, crie uma pasta com o mesmo nome em seu computador. Esse será seu repositório local.
+    CM12 $ mkdir NOMEPROJETO
+
+
+## 9.0 O PRIMEIRO COMMIT
+Primeiramente, vá até seu repositório local e inicialize o **GIT**. 
+    CM13 $ cd NOMEPROJETO
+
+Utilize **CM15** como modelo para adição de arquivos específicos no repositório ou então faça uso do **CM16** para adicionar todos os arquivos.
+    CM14 $ git init
+    CM15 $ git add ARQUIVO1 ARQUIVO2 ARQUIVO3
+    CM16 $ git add .
+
+Após feita a marcação de arquivos a serem enviados ao repositório (**CM15**/**CM16**), é necessário fazer uso do commit:
+    CM17 $ git commit -m 'uma mensagem qualquer vem aqui'
+
+Aponte para o repositório do **[GITHUB][github]**:
+    CM18 $ git remote add origin git@github.com:nomedecadastronosite/NOMEPROJETO.git
+    
+E, finalmente... envie os arquivos para o servidor:
+    CM19 $ git push origin master
+
+**LEMBRETE**: NOMEPROJETO é o nome do repositório criado na seção 8.1. <br />
+Os comandos **CM18**/**CM19** podem resumir-se a um único: <br />
+    CM20 $ git push git@github.com:nomedecadastronosite/NOMEPROJETO.git master
 
 
 
