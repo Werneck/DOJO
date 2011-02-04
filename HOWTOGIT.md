@@ -37,7 +37,7 @@ Aqui, um **CUIDADO** especial: na pasta em questão são utilizadas chaves com n
 
 
 **FINALMENTE, COMO GERAR MINHA CHAVE?** <br />
-**NOTA**: esse passo pode ser pulado caso alguma chave já existente vá ser utilizada.
+**NOTA01**: esse passo pode ser pulado caso alguma chave já existente vá ser utilizada.
 
 Agora que temos certeza de que o **SSH** não vai utilizar uma chave pré-existente, podemos criar novas. <br />
 Navegue até a pasta mostrada em **CM02** e utilize o comando **CM07**:
@@ -121,6 +121,39 @@ Tenha em mente os nomes dos usuários e os repositórios de onde serão baixados
 Depois de feita a atualização, novos ramos (branches) que poderão ser baixados serão mostrados. Escolha-os e baixe-os:
     CM25 $ git pull A nomedobranch1
     CM26 $ git pull B nomedobranch5718
+<br />n
+
+    
+**OMG, MERGE CONFLICTS! E AGORA?** <br />
+Mesclar ou não mesclar, eis a questão! Sem pânico.
+        
+**SEM MERGE**: para ignorar as mudanças, só é necessário limpar o índice de entradas. Permanecem os arquivos originais.
+        CM27 $ git reset
+        
+**COM MERGE**: o **GIT** marcará os conflitos na árvore de trabalho. Edite o que for necessário e adicione os arquivos editados ao contexto.
+        CM28 $ git add arquivomodificado1
+        CM29 $ git add arquivomodificado2
+        
+Compartilhe as mudanças. Aqui é só remover os marcadores **#** das linhas que serão enviadas como comentários. :)
+        CM30 $ git commit -a
+<br />        
+        
+Problema resolvido!
+**NOTA02**: os conflitos com o merge podem ser inicialmente assustadores, mas nada que não possa ser resolvido com a ajuda de algumas ferramentas interessantes. :)
+        CM31 $ git mergetool
+        CM32 $ git diff
+
+**NOTA03**: o comando abaixo informa quais os branches disponíveis.
+CM33 $ git branch -r
+
+**NOTA04**: cada pasta inicializada conterá seu arquivo de configuração e este pode ser acessado utilizando-se CM28.
+CM34 $ vim .git/config 
+
+**NOTA05**: entender como realmente funciona o merge é uma questão de prática. Então... pratique!
+
+
+## 11.0 CONSIDERAÇÕES FINAIS
+So long, and thanks for all the fish. :)
 
 
 [github]: http://github.com
