@@ -62,8 +62,8 @@ Primeiramente, vamos copiar nossa chave: navegue até a pasta onde elas foram cr
     CM07 ls
     CM08 vim nomedoseuarquivoarquivo.pub
 
-Faça seu login no site. Acesse: "Account Settings" **>** "SSH Public Keys" **>** "Add another public key". <br />
-Escolha um nome qualquer para o campo "Título" e em "Key" cole a **SSH-RSA** que acabou de ser copiada. 
+Faça seu login no site. Acesse: "ACCOUNT SETTINGS" > "SSH PUBLIC KEYS" > "ADD ANOTHER PUBLIC KEY". <br />
+Escolha um nome qualquer para o campo "TÍTULO" e em "KEY" cole a **SSH-RSA** que acabou de ser copiada. 
 
 
 ## 6.0 TESTANDO A CONEXÃO COM O GITHUB
