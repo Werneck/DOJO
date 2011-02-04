@@ -1,4 +1,4 @@
-# GIT & GITHUB OMGWTFBBQ!!1? <br />
+# GIT & GITHUB - OMGWTFBBQ!!1? <br />
 **howto by anna**: <anna.claudia@gmail.com>
 
 ## 1.0 INTRODUÇÃO
@@ -10,5 +10,7 @@ Let's get started!
 **GIT** é um **SOFTWARE LIVRE** para controle de versão **DISTRIBUÍDO**. O que significa dizer que mesmo com um fluxo de trabalho centralizado, cada usuário tem um backup completo do servidor principal. Tudo é **LOCAL**. <br />
 **GIT É RÁPIDO, LEVE E FÁCIL DE APRENDER!**
 
-"Cada diretório de trabalho é um repositório com todos os históricos e habilidade total de controle das revisões não dependente de acesso a uma rede ou a um servidor central."
+<pre><code>### 2.1 PUXANDO O SACO
+<pre><code>Só pra constar, procurem quem foi o desenvolvedor do GIT! :D</code></pre>
+</code></pre>
 
