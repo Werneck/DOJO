@@ -153,7 +153,7 @@ Problema resolvido!<br />
 
 
 ## 11.0 CONSIDERAÇÕES FINAIS
-So long, and thanks for all the fish. :)
+"So long, and thanks for all the fish." :)
 
 
 ## 12.0 REFERÊNCIAS E OUTROS SITES INTERESSANTES
